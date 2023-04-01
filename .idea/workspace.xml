@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e997d98-7700-4d63-95ea-d7595a0b6159" name="Changes" comment="Added Sorting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3e997d98-7700-4d63-95ea-d7595a0b6159" name="Changes" comment="Added Insertion Sort">
       <change beforePath="$PROJECT_DIR$/src/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <workItem from="1678927554376" duration="425000" />
       <workItem from="1678927985731" duration="1329000" />
       <workItem from="1679707966648" duration="4334000" />
-      <workItem from="1680305974722" duration="3972000" />
+      <workItem from="1680305974722" duration="4156000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1678470387192</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680309453308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Insertion Sort">
+      <created>1680309998716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680309998716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,14 +93,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added Sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sorting" />
+    <MESSAGE value="Added Insertion Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Insertion Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting.java</url>
-          <line>15</line>
+          <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

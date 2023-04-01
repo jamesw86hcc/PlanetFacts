@@ -1,3 +1,4 @@
+import java.security.SecureRandom;
 import java.util.Arrays;
 
 /*
@@ -7,9 +8,15 @@ import java.util.Arrays;
 public class Sorting {
 
     public static void main(String[] args) {
-        int[] inputArray = {6, 2, 4, 3, 1};
+        SecureRandom rand = new SecureRandom();
+        int[] inputArray = rand.ints(10,10,100).toArray();
         insertionSort(inputArray);
         System.out.println(Arrays.toString(inputArray));
+
+        inputArray = rand.ints(10,10,100).toArray();
+        selectionSort(inputArray);
+        System.out.println(Arrays.toString(inputArray));
+
     }
 
     public static void selectionSort(int[] arr) {
